@@ -1,0 +1,146 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f9ff;
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #e0f7fa;
+  border-bottom: 1px solid #b2ebf2;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #00796b;
+  margin-right: 20px;
+}
+
+.headerTitle {
+  margin: 0;
+  flex: 1;
+  text-align: center; /* Center-align the title */
+}
+
+.logoutButton {
+  background-color: #00796b;
+  margin:1px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logoutButton:hover {
+  background-color: #004d40;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.cardFullWidth {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  grid-column: span 2; /* Spans the entire width */
+}
+
+.cardHalfWidth {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust profile box size and alignment */
+.cardHalfWidth {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Container for profile picture and info */
+.profileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Space between profile picture and info */
+  margin-top: 10px;
+}
+
+/* Profile picture styles */
+.profilePic {
+  width: 80px; /* Adjusted size */
+  height: 80px;
+  border-radius: 50%; /* Circle shape */
+  background: #00796b; /* Placeholder color */
+  margin-bottom: 0; /* Remove margin as it's now handled by profileContainer */
+}
+
+/* Profile information alignment */
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left; /* Align text to the left */
+}
+
+/* Center the card titles */
+.cardTitle {
+  text-align: center;
+  margin-top: 0;
+}
+
+.assignmentItem, .activityItem, .announcementItem {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dueDate, .activityDate {
+  color: #00796b;
+  font-weight: bold;
+}
+
+.calendarPlaceholder {
+  background: #e0f2f1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #004d40;
+  font-size: 18px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #e0f7fa;
+  border-top: 1px solid #b2ebf2;
+}

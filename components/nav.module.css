@@ -1,0 +1,26 @@
+.logo{
+    font-size:40px;
+    
+}
+
+.navs{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width: 25%;
+    /* height: 40px; */
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button{
+    border: black solid 1px;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 10px;
+}
